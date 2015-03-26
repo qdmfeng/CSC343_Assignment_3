@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE users SYSTEM "users.dtd">
+<users>
+	<user uid="u1" dob="1995/6/27" email="john.doe@gmail.com">
+		<surname>
+			Doe
+		</surname>
+		<givennames>
+			John
+		</givennames>
+		<follows who="u2"/>
+		<playlists>
+			<playlist pid="p2" created="yes" playcount="3" />
+			<playlist pid="p1" created="no" playcount="60" />
+		</playlists>
+	</user>
+	<user uid="u2" email="jermy.lin@gmail.com">
+		<surname>
+			Lin
+		</surname>
+		<givennames>
+			Jermy
+		</givennames>
+		<follows />
+	</user>
+	<user uid="u3" email="david.liu@gmail.com">
+		<surname>
+			Liu
+		</surname>
+		<givennames>
+			David
+		</givennames>
+		<follows who="u1 u2"/>
+	</user>
+</users>

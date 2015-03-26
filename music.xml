@@ -1,16 +1,63 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE music SYSTEM "music.dtd">
 <music>
 	<songs>
-		<song>
+		<song sid="s1" time="3:04" year="2009">
 			<title>
+				Way to Go!
 			</title>
 			<artist>
+				Girl's Generation
 			</artist>
-			<composer>
-			</composer>
+			<composers>
+				<composer>
+					Kenzie
+				</composer>
+			</composers>
 			<album>
+				Gee
+			</album>
+		</song>
+		<song sid="s2" time="3:40" year="2006">
+			<title>
+				Curse of the Golden Flower
+			</title>
+			<artist>
+				Jay Chou
+			</artist>
+			<composers>
+				<composer>
+					Shigeru Umebayashi
+				</composer>	
+			</composers>
+		</song>
+		<song sid="s3" time="4:02" year="2011">
+			<title>
+				Gotta Be You
+			</title>
+			<artist>
+				One Direction
+			</artist>
+			<composers>
+				<composer>
+					August Rigo
+				</composer>
+				<composer>
+					Steve Mac
+				</composer>
+			</composers>
+			<album>
+				Up All Night
 			</album>
 		</song>
 	</songs>
-	<playlist>
-	</playlist>
+	<playlists>
+		<playlist pid="p1">
+			<track sid="s1" />
+		</playlist>
+		<playlist pid="p2" creator="u1">
+			<track sid="s1" />
+			<track sid="s3" />
+		</playlist>
+	</playlists>
 </music>
